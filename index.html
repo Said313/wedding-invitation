@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="uz-Cyrl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Саидғаффор ва Ширин — никоҳ тўйи таклифномаси, 19 август, Шымкент"
+    />
+    <meta name="theme-color" content="#B49156" />
+    <title>Саидғаффор &amp; Ширин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preload"
+      href="assets/web/wisteria-arch.webp"
+      as="image"
+      type="image/webp"
+    />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="petals" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="lang" data-lang-menu>
+        <button
+          type="button"
+          class="lang__toggle"
+          aria-label="Language"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          data-lang-toggle
+        >
+          <span data-lang-current>УЗ</span>
+          <svg class="lang__chevron" viewBox="0 0 12 8" aria-hidden="true">
+            <path
+              d="M1 1.5L6 6.5L11 1.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <ul class="lang__menu" role="listbox" aria-label="Language" hidden data-lang-list>
+          <li role="option">
+            <button type="button" class="lang__btn is-active" data-lang="uz" aria-selected="true">
+              УЗ
+            </button>
+          </li>
+          <li role="option">
+            <button type="button" class="lang__btn" data-lang="kk" aria-selected="false">ҚАЗ</button>
+          </li>
+          <li role="option">
+            <button type="button" class="lang__btn" data-lang="ru" aria-selected="false">РУ</button>
+          </li>
+          <li role="option">
+            <button type="button" class="lang__btn" data-lang="en" aria-selected="false">EN</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <picture class="hero__wisteria" aria-hidden="true">
+          <source srcset="assets/web/wisteria-arch.webp" type="image/webp" />
+          <img
+            src="assets/web/wisteria-arch.png"
+            alt=""
+            width="2400"
+            height="2400"
+            decoding="async"
+          />
+        </picture>
+
+        <div class="hero__content">
+          <p class="hero__eyebrow" data-i18n="hero.eyebrow">Тўй таклифномаси</p>
+
+          <h1 class="hero__names">
+            <span class="hero__name" data-i18n="names.groom">Саидғаффор</span>
+            <span class="hero__amp" aria-hidden="true">&</span>
+            <span class="hero__name" data-i18n="names.bride">Ширин</span>
+          </h1>
+
+          <p class="hero__lead" data-i18n="hero.lead">
+            Сизни тўй дастурхонимизга таклиф этамиз!
+          </p>
+
+          <p class="hero__dates" data-i18n="hero.dates">19 август, 2026 · Шымкент</p>
+
+          <a class="btn" href="#celebrations" data-i18n="hero.cta">Манзил ва вақт</a>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+          <span class="hero__scroll-line"></span>
+        </div>
+      </section>
+
+      <div class="floral-divider floral-divider--garland reveal" aria-hidden="true">
+        <picture>
+          <source srcset="assets/web/anemone-garland.webp" type="image/webp" />
+          <img
+            src="assets/web/anemone-garland.png"
+            alt=""
+            width="1200"
+            height="800"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <section class="invite reveal" id="invite">
+        <picture class="invite__rose" aria-hidden="true">
+          <source srcset="assets/web/white-rose.webp" type="image/webp" />
+          <img
+            src="assets/web/white-rose.png"
+            alt=""
+            width="800"
+            height="533"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+        <picture class="invite__blossom" aria-hidden="true">
+          <source srcset="assets/web/blossom-branch.webp" type="image/webp" />
+          <img
+            src="assets/web/blossom-branch.png"
+            alt=""
+            width="1100"
+            height="984"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+        <div class="invite__inner">
+          <h2 class="invite__greeting" data-i18n="invite.greeting">Ассалому алайкум!</h2>
+          <p class="invite__text" data-i18n="invite.text">
+            Ҳурматли азиз меҳмон! Сизни ва оилангизни азиз фарзандларимиз
+            Саидғаффор ва Ширинларнинг никоҳ тўйи муносабати билан 2026 йил
+            19 август куни соат 19:00 да ёзиладиган дастурхонимизга таклиф
+            этамиз.
+          </p>
+          <p class="invite__signoff" data-i18n="invite.signoff">Ҳурмат ва эҳтиром билан,</p>
+          <p class="invite__host" data-i18n="invite.host">Сабыровлар оиласи</p>
+        </div>
+      </section>
+
+      <section class="countdown reveal" id="countdown" data-target="2026-08-19T19:00:00+05:00">
+        <picture class="countdown__spray" aria-hidden="true">
+          <source srcset="assets/web/lavender-spray.webp" type="image/webp" />
+          <img
+            src="assets/web/lavender-spray.png"
+            alt=""
+            width="1100"
+            height="580"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+        <div class="date-banner">
+          <span class="date-banner__line" aria-hidden="true"></span>
+          <p class="date-banner__text" data-i18n="countdown.date">19 август 2026</p>
+          <span class="date-banner__line" aria-hidden="true"></span>
+        </div>
+        <p class="countdown__kicker" data-i18n="countdown.kicker">Қувончли кунгача</p>
+        <h2 class="countdown__title" data-i18n="countdown.title">Тўйгача қолди</h2>
+        <div class="countdown__grid" role="timer">
+          <div class="countdown__cell">
+            <span class="countdown__num" data-count="days">0</span>
+            <span class="countdown__label" data-i18n="countdown.days">кун</span>
+          </div>
+          <div class="countdown__cell">
+            <span class="countdown__num" data-count="hours">0</span>
+            <span class="countdown__label" data-i18n="countdown.hours">соат</span>
+          </div>
+          <div class="countdown__cell">
+            <span class="countdown__num" data-count="minutes">0</span>
+            <span class="countdown__label" data-i18n="countdown.minutes">дақиқа</span>
+          </div>
+          <div class="countdown__cell">
+            <span class="countdown__num" data-count="seconds">0</span>
+            <span class="countdown__label" data-i18n="countdown.seconds">сония</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="floral-divider floral-divider--magnolia reveal" aria-hidden="true">
+        <picture>
+          <source srcset="assets/web/magnolia-branch.webp" type="image/webp" />
+          <img
+            src="assets/web/magnolia-branch.png"
+            alt=""
+            width="1000"
+            height="433"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <section class="celebrations" id="celebrations">
+        <picture class="celebrations__bouquet" aria-hidden="true">
+          <source srcset="assets/web/watercolor-bouquet.webp" type="image/webp" />
+          <img
+            src="assets/web/watercolor-bouquet.png"
+            alt=""
+            width="900"
+            height="900"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+
+        <header class="section-head reveal">
+          <p class="section-kicker" data-i18n="events.kicker">Шымкент</p>
+          <h2 data-i18n="events.title">Никоҳ тўйи</h2>
+          <p data-i18n="events.subtitle">Саидғаффор ва Ширин</p>
+        </header>
+
+        <div class="events events--single">
+          <article class="event reveal">
+            <div class="event__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Banquet hall / wedding restaurant -->
+                <path
+                  d="M6 38V20l6-4h24l6 4v18"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 20h36"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                />
+                <!-- Pediment / crown of hall -->
+                <path
+                  d="M12 16l12-8 12 8"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linejoin="round"
+                />
+                <!-- Grand entrance arch -->
+                <path
+                  d="M18 38v-9c0-3.3 2.7-6 6-6s6 2.7 6 6v9"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linejoin="round"
+                />
+                <!-- Side windows -->
+                <path
+                  d="M10 26h4v6h-4v-6ZM34 26h4v6h-4v-6Z"
+                  stroke="currentColor"
+                  stroke-width="1.3"
+                  stroke-linejoin="round"
+                />
+                <!-- Steps -->
+                <path
+                  d="M16 38h16M14 40.5h20"
+                  stroke="currentColor"
+                  stroke-width="1.3"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <time class="event__date" datetime="2026-08-19T19:00:00+05:00">
+              <span class="event__day" data-i18n="events.day">19</span>
+              <span class="event__meta">
+                <span class="event__month" data-i18n="events.month">август</span>
+                <span class="event__year">2026</span>
+              </span>
+            </time>
+            <div class="event__body">
+              <p class="event__side" data-i18n="events.side">Манзил</p>
+              <h3 data-i18n="events.venue">«Al-Akram» ресторани</h3>
+              <p class="event__place" data-i18n="events.city">Шымкент</p>
+              <p class="event__note" data-i18n="events.address">Улица Гагарина, 13/13</p>
+              <p class="event__detail" data-i18n="events.time">Соат 19:00</p>
+              <a
+                class="btn btn--sm"
+                href="https://2gis.kz/shymkent/search/al%20akram/firm/70000001026563654/69.522767%2C42.340134?m=69.587036%2C42.315706%2F11"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="events.map"
+                data-i18n-href="events.mapUrl"
+              >
+                Манзилни кўриш
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="blessing reveal" id="blessing">
+        <div class="blessing__ornament" aria-hidden="true">
+          <svg viewBox="0 0 80 20" fill="none">
+            <path d="M4 10h26M50 10h26" stroke="currentColor" stroke-width="0.8" opacity="0.5" />
+            <circle cx="40" cy="10" r="2.5" fill="currentColor" opacity="0.7" />
+            <circle cx="32" cy="10" r="1" fill="currentColor" opacity="0.4" />
+            <circle cx="48" cy="10" r="1" fill="currentColor" opacity="0.4" />
+          </svg>
+        </div>
+        <blockquote class="blessing__quote" data-i18n="blessing.text">
+          «Икки жон бир оила — бахтнинг бошланиши»
+        </blockquote>
+      </section>
+
+      <section class="closing reveal" id="closing">
+        <picture class="closing__heart" aria-hidden="true">
+          <source srcset="assets/web/wisteria-heart.webp" type="image/webp" />
+          <img
+            src="assets/web/wisteria-heart.png"
+            alt=""
+            width="700"
+            height="700"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+        <h2 class="closing__title" data-i18n="closing.title">Сизни кутамиз!</h2>
+        <p class="closing__text" data-i18n="closing.text">
+          Ташрифингиз биз учун катта шараф ва чексиз қувончдир
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer.line">Шымкент · 2026</p>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
