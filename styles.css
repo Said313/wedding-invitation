@@ -617,41 +617,31 @@ a {
 }
 
 .countdown__spray {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: min(28rem, 92vw);
-  transform: translateX(-50%);
-  opacity: 0.28;
+  display: block;
+  width: min(22rem, 88vw);
+  margin: 0 auto 1.25rem;
+  opacity: 0.72;
   pointer-events: none;
-  z-index: 0;
   -webkit-mask-image: linear-gradient(
-    180deg,
+    90deg,
     transparent 0%,
-    #000 18%,
-    #000 70%,
+    #000 12%,
+    #000 88%,
     transparent 100%
   );
   mask-image: linear-gradient(
-    180deg,
+    90deg,
     transparent 0%,
-    #000 18%,
-    #000 70%,
+    #000 12%,
+    #000 88%,
     transparent 100%
   );
 }
 
 .countdown__spray img {
+  display: block;
   width: 100%;
   height: auto;
-}
-
-.date-banner,
-.countdown__kicker,
-.countdown__title,
-.countdown__grid {
-  position: relative;
-  z-index: 1;
 }
 
 .date-banner {
