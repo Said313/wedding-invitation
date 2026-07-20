@@ -28,11 +28,15 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
   margin: 0;
   min-height: 100dvh;
+  width: 100%;
+  max-width: 100%;
   font-family: var(--font-body);
   color: var(--ink);
   background: var(--bg);
@@ -40,6 +44,8 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  overflow-x: clip;
+  position: relative;
 }
 
 img,
@@ -511,7 +517,8 @@ a {
 .invite {
   position: relative;
   padding: 3rem var(--space) 1rem;
-  overflow: visible;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .invite__rose {
@@ -741,7 +748,8 @@ a {
 .celebrations {
   position: relative;
   padding: 3.5rem var(--space) 3rem;
-  overflow: visible;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .celebrations__bouquet {
@@ -916,7 +924,8 @@ a {
   position: relative;
   padding: 4.5rem var(--space) 2.5rem;
   text-align: center;
-  overflow: visible;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .blessing__ornament {
