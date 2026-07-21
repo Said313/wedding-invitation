@@ -1,5 +1,6 @@
 const translations = {
   uz: {
+    "meta.title": "Таклифнома",
     "hero.eyebrow": "Тўй таклифномаси",
     "names.groom": "Саидғаффор",
     "names.bride": "Ширин",
@@ -38,6 +39,7 @@ const translations = {
     "footer.line": "Шымкент · 2026",
   },
   kk: {
+    "meta.title": "Шақыру",
     "hero.eyebrow": "Тойға шақыру",
     "names.groom": "Саидғаффор",
     "names.bride": "Ширин",
@@ -76,6 +78,7 @@ const translations = {
     "footer.line": "Шымкент · 2026",
   },
   ru: {
+    "meta.title": "Пригласительные",
     "hero.eyebrow": "Свадебное приглашение",
     "names.groom": "Саидғаффор",
     "names.bride": "Ширин",
@@ -114,6 +117,7 @@ const translations = {
     "footer.line": "Шымкент · 2026",
   },
   en: {
+    "meta.title": "Invitation",
     "hero.eyebrow": "Wedding invitation",
     "names.groom": "Saidgaffor",
     "names.bride": "Shirin",

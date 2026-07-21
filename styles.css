@@ -365,6 +365,11 @@ a {
   animation: rise 1s ease 0.66s forwards;
 }
 
+/* Latin "g" descender needs more room above & */
+html[lang="en"] .hero__amp {
+  margin: 0.45rem 0 0.2rem;
+}
+
 .hero__lead {
   margin: 1.25rem 0 0;
   max-width: 18rem;

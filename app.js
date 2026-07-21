@@ -27,6 +27,7 @@
     currentLang = lang;
     const dict = translations[lang] || translations[defaultLang];
     document.documentElement.lang = htmlLang[lang] || htmlLang[defaultLang];
+    if (dict["meta.title"]) document.title = dict["meta.title"];
 
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
