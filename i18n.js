@@ -11,7 +11,7 @@ const translations = {
     "invite.text":
       "Ҳурматли азиз меҳмонимиз! Сизни ва оилангизни азиз фарзандларимиз Саидғаффор ва Ширинларнинг никоҳ тўйи муносабати билан 2026 йил 19 август куни соат 19:00 да ёзиладиган дастурхонимизга таклиф этамиз.",
     "invite.signoff": "Ҳурмат ва эҳтиром билан,",
-    "invite.host": "Сабыровлар оиласи",
+    "invite.host": "Сайдирасул Сабыровлар оиласи",
     "countdown.date": "19 август 2026",
     "countdown.kicker": "Қувончли кунгача",
     "countdown.title": "Тўйгача қолди",
@@ -50,7 +50,7 @@ const translations = {
     "invite.text":
       "Құрметті қонақ! Сізді және отбасыңызды қадірлі балаларымыз Саидғаффор мен Шириннің неке тойы аясында 2026 жыл 19 тамызда сағат 19:00-де өтетін дастарханымызға шақырамыз.",
     "invite.signoff": "Құрметпен,",
-    "invite.host": "Сабыров отбасы",
+    "invite.host": "Сайдирасул Сабыров отбасы",
     "countdown.date": "19 тамыз 2026",
     "countdown.kicker": "Қуанышты күнге дейін",
     "countdown.title": "Тойға дейін",
@@ -89,7 +89,7 @@ const translations = {
     "invite.text":
       "Уважаемый гость! Приглашаем вас и вашу семью на праздничный стол по случаю свадьбы наших дорогих детей Саидғаффор и Ширин, который состоится 19 августа 2026 года в 19:00.",
     "invite.signoff": "С уважением и почтением,",
-    "invite.host": "Семья Сабыровых",
+    "invite.host": "Семья Сайдирасул Сабыровых",
     "countdown.date": "19 августа 2026",
     "countdown.kicker": "До радостного дня",
     "countdown.title": "До торжества осталось",
@@ -128,7 +128,7 @@ const translations = {
     "invite.text":
       "Dear guest! We invite you and your family to our festive table on the occasion of the wedding of our beloved children SAIDGAFFOR and SHIRIN, to be held on August 19, 2026 at 7:00 PM.",
     "invite.signoff": "With respect and honour,",
-    "invite.host": "The Sabirov family",
+    "invite.host": "The Saydirasul Sabуrov family",
     "countdown.date": "August 19, 2026",
     "countdown.kicker": "Until our joyful day",
     "countdown.title": "Counting down to the big day",
